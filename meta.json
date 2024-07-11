@@ -11,6 +11,17 @@
             }
         },
         "updateType": "minor"
-    }
+    },
+    {
+      "id": "1.0.4",
+      "releasedAt": 1720726260000,
+      "promotions": {
+          "downloads": {
+              "modrinth": "https://craftworld-pack.s3.eu-north-1.amazonaws.com/latest.mrpack/",
+              "generic": "https://craftworld-pack.s3.eu-north-1.amazonaws.com/latest.mrpack/"
+          }
+      },
+      "updateType": "minor"
+  }
   ]
 }
