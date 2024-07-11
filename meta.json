@@ -7,9 +7,10 @@
         "releasedAt": 1720726205000,
         "promotions": {
             "downloads": {
-                "generic": "https://example.com/"
+                "modrinth": "https://craftworld-pack.s3.eu-north-1.amazonaws.com/latest.mrpack/"
             }
-        }
+        },
+        "updateType": "minor"
     }
   ]
 }
