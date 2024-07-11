@@ -1,6 +1,0 @@
-Updated server sqlite file for Distant Horizons.
-Added more splash texts.
-Removed broken datapacks and replaced them new one, adding support for more foods in the Diet mod.
-Downgraded Distant Horizons from experimental version with server support due to issues with lag and shader skyboxes. Distant Horizons will still be supported through gradual releases of updated sqlite files when needed.
-Added delete_dh_server_cache.bat to assist in deleting Distant Horizon server caches, which tends to help fix issues sometimes.
-Synched config files from the server, fixing various bugs and providing a more consistent experience when playing in singleplayer.
