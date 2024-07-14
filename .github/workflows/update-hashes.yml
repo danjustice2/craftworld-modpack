@@ -25,7 +25,7 @@ jobs:
           body: |
             Hashes generated
           branch: |
-            main
+            update-hashes
           # hotfixupdate/${{ github.run_number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
