@@ -11,6 +11,11 @@
             }
         },
         "updateType": "minor"
-    }
+    },
+    {
+      "id": "1.1.0",
+      "releasedAt": 2720726205000,
+      "updateType": "minor"
+  }
   ]
 }
