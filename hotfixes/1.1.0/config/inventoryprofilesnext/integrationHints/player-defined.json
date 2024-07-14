@@ -1,0 +1,62 @@
+{
+    "net.minecraft.class_490": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": -6,
+                "top": 25
+            },
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 27
+            }
+        }
+    },
+    "net.minecraft.class_476": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": -6,
+                "top": 25
+            }
+        }
+    },
+    "com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 36,
+                "bottom": -2
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -4,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -30,
+                "top": 34
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -18,
+                "top": 22
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -16,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -7,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": -7,
+                "top": 24
+            }
+        }
+    }
+}

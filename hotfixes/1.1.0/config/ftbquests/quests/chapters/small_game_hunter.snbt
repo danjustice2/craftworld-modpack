@@ -1,0 +1,272 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "small_game_hunter"
+	group: "12BD76B8E7EB32EF"
+	hide_quest_details_until_startable: true
+	icon: "minecraft:rabbit_hide"
+	id: "372C24C5F6389407"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "74DC06558837216B"
+			rewards: [{
+				id: "172282563A578D0E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				icon: "minecraft:rabbit_hide"
+				id: "28EC58B529857A99"
+				title: "Kill A Rabbit"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill A Rabbit"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74DC06558837216B"]
+			id: "4F3BE0767F59E23F"
+			tasks: [{
+				entity: "minecraft:rabbit"
+				icon: "minecraft:rabbit_hide"
+				id: "13EDF75C5A27C28A"
+				title: "Kill 20 Rabbits"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F3BE0767F59E23F"]
+			id: "4DFB8F5DAD63F742"
+			rewards: [{
+				id: "26F90281FC42717F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:rabbit"
+				icon: "minecraft:rabbit_hide"
+				id: "609CB95B6D0A4224"
+				title: "Kill 50 Rabbits"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "336D2F20C43E7783"
+			rewards: [{
+				id: "69995D31F834BA29"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:frog"
+				icon: "minecraft:frogspawn"
+				id: "5E7D3391330B4AB3"
+				title: "Kill A Frog"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["336D2F20C43E7783"]
+			id: "5432E1EA613ACDD5"
+			rewards: [{
+				id: "13C43025FEA18653"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:frog"
+				icon: "minecraft:frogspawn"
+				id: "2113E4D78C1EF28A"
+				title: "Kill 5 Frogs"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5432E1EA613ACDD5"]
+			id: "2EDA6A1DDA4F6D35"
+			rewards: [{
+				id: "39A24F61D21E0D67"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:frog"
+				icon: "minecraft:frogspawn"
+				id: "59B3DDDEECAB1F72"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Kill 15 Frogs"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5FC160C4A5C366CB"
+			rewards: [{
+				id: "1122DC3E8AAD9456"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bat"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/bat.png"
+					}
+				}
+				id: "306941785040D617"
+				title: "Kill A Bat"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FC160C4A5C366CB"]
+			id: "319C86B4E3BD1D72"
+			rewards: [{
+				id: "24B14F65A9392E45"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bat"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/bat.png"
+					}
+				}
+				id: "670550BE93EB9F3D"
+				title: "Kill 5 Bats"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["319C86B4E3BD1D72"]
+			id: "37EA15425F7EEADB"
+			rewards: [{
+				id: "7E25A6191F950B80"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bat"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/bat.png"
+					}
+				}
+				id: "176945805AD607B0"
+				title: "Kill 15 Bats"
+				type: "kill"
+				value: 15L
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "40AA694F35C26B06"
+			rewards: [{
+				id: "3CD6E8EA3E1A9926"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:fox"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/fox.png"
+					}
+				}
+				id: "648CADE02C87CDEA"
+				title: "Kill A Fox"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40AA694F35C26B06"]
+			id: "324A06C636448072"
+			rewards: [{
+				id: "269A235CCA49FACF"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:fox"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/fox.png"
+					}
+				}
+				id: "6885AB214CC35E38"
+				title: "Kill 5 Foxes"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["324A06C636448072"]
+			id: "6C5492ECBFFD58FB"
+			rewards: [{
+				id: "68BCAD5DDEEE0365"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:fox"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/fox.png"
+					}
+				}
+				id: "591CF92DC12A3D93"
+				title: "Kill 15 Foxes"
+				type: "kill"
+				value: 15L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "Small Game Hunter"
+}

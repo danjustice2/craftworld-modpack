@@ -1,0 +1,24 @@
+
+
+
+
+profile Saved activate HOT5
+	HOT1
+		"minecraft:iron_sword"
+	HOT2
+		"minecraft:iron_pickaxe"
+	HOT5
+		"travelersbackpack:standard"
+	HOT7
+		"minecraft:flint_and_steel"
+	HOT8
+		"minecraft:obsidian"
+	HOT9
+		"minecraft:cooked_rabbit"
+	OFFHAND
+		"minecraft:torch"
+	HEAD
+		"creategoggles:goggle_diamond_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:1}]
+	CHEST
+		"minecraft:diamond_chestplate" -> "Enchantments" : [{id:"minecraft:unbreaking",lvl:1},{id:"minecraft:protection",lvl:1}]
+

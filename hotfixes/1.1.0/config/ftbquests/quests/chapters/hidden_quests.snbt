@@ -1,0 +1,422 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "hidden_quests"
+	group: "6A359E9C2EB1C150"
+	icon: "supplementaries:key"
+	id: "0597C53C1BAD1B02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			id: "468B218D7CCCD687"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "3D401F2E02B55FE6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72F1DF08016F0376"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Don't do it all at once."
+			tasks: [{
+				consume_items: false
+				count: 64L
+				icon: "minecraft:string"
+				id: "27433E726DF79E2D"
+				item: "minecraft:string"
+				only_from_crafting: false
+				title: "Pick up a total of 64 string"
+				type: "item"
+			}]
+			title: "Strung out"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			icon: "minecraft:cobweb"
+			id: "50C9B0C313B07F75"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "3C49617C798EF51E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "36DBD135BFB65648"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Easy money."
+			tasks: [{
+				consume_items: false
+				icon: "minecraft:string"
+				id: "72607C8DB2999375"
+				item: "minecraft:string"
+				only_from_crafting: true
+				title: "Craft some string."
+				type: "item"
+			}]
+			title: "String lab"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			id: "2333AD6A092772C7"
+			invisible: true
+			rewards: [
+				{
+					id: "2A3E706209E0361E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "021D7FADCE3B8A5C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Mansion."
+			tasks: [{
+				id: "290B0E68A60A6383"
+				structure: "minecraft:mansion"
+				title: "Find a Mansion"
+				type: "structure"
+			}]
+			title: "Minecraft veteran"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "246F4081B5CE9D27"
+			invisible: true
+			rewards: [{
+				id: "2A9331AD1C43AE28"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Kill 100 cows."
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					Count: 1
+					id: "nethersdelight:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6FBA1343EF50E96B"
+				title: "Slasher moovie"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:lead"
+			id: "1844EBA4C2FC2223"
+			invisible: true
+			rewards: [{
+				id: "50982CA0AB6431FD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Kill the wandering trader."
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "13EFC8E31902CE2F"
+				title: "Kill the wandering trader."
+				type: "kill"
+				value: 1L
+			}]
+			title: "It's tradition around here"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "23056D286858E626"
+			invisible: true
+			rewards: [{
+				id: "7F1BE9EFE2AB814C"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			subtitle: "Kill a panda."
+			tasks: [{
+				entity: "minecraft:panda"
+				icon: "minecraft:bamboo"
+				id: "2E5C2CBEE288BA29"
+				title: "You call that camouflage?"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "7281E3AE09FF3CC4"
+			invisible: true
+			rewards: [{
+				id: "11552639293070EE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Kill 100 sheep."
+			tasks: [{
+				entity: "minecraft:sheep"
+				icon: "minecraft:mutton"
+				id: "46BCA417D2041EAF"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Baah!"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:white_bed"
+			id: "578C5299C39576AE"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "7C7983B5D02EE35B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Now you must lie in it."
+			tasks: [{
+				icon: "minecraft:white_bed"
+				id: "7BFCACF9CA966480"
+				stat: "minecraft:sleep_in_bed"
+				title: "Sleep in a bed"
+				type: "stat"
+				value: 1
+			}]
+			title: "You've Made Your Bed"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "4466050F68BCF7DD"
+			invisible: true
+			rewards: [
+				{
+					id: "24008FF97F7A1145"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "611746AE5EADD786"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Find a mineshaft in a mesa biome."
+			tasks: [{
+				icon: "minecraft:raw_gold"
+				id: "786A2B2D82211CAA"
+				structure: "minecraft:mineshaft_mesa"
+				title: "Gold Rush"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "7991708ABF3733D6"
+			invisible: true
+			rewards: [{
+				id: "3BC124754BDA82AD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Time to get wasted."
+			tasks: [{
+				advancement: "vinery:main/get_wine"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				id: "100AD9F4D12D18BD"
+				title: "Make your first bottle of wine"
+				type: "advancement"
+			}]
+			title: "So Winey"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "55A3B9D2CECD77CC"
+			invisible: true
+			rewards: [
+				{
+					id: "020B39E7EB9C6DDF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "118B3C8A2075EF64"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Trade with your friendly local villager."
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				icon: "minecraft:emerald"
+				id: "69585B0574554F90"
+				title: "Trade with a villager"
+				type: "advancement"
+			}]
+			title: "The Art of the Deal"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "387730E3B7F33ED9"
+			invisible: true
+			rewards: [{
+				id: "5B1F75F508B191B3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Oh honey!"
+			tasks: [{
+				advancement: "create:honey_drain"
+				criterion: ""
+				id: "7DF64F42C7079F50"
+				title: "The Fruits of Their Labor"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "2A52F6358AA29A25"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "3F52AE19CE519C61"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Deflect a projectile with a shield."
+			tasks: [{
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "57658E1AF86A83B7"
+				title: "Deflect a projectile with a shield"
+				type: "advancement"
+			}]
+			title: "T H I C C"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "58145480360CF6DE"
+			invisible: true
+			rewards: [{
+				id: "485787BBFD6006C9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Go to the end."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:ender_eye"
+				id: "25FAE64AE3B09133"
+				title: "Go to the end"
+				type: "dimension"
+			}]
+			title: "The End"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "1E2CFE7CB44F806F"
+			invisible: true
+			rewards: [{
+				id: "3E666B147C001198"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Visit the Nether."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/nether_portal"
+					}
+				}
+				id: "1170A112A99E899C"
+				title: "Visit the Nether"
+				type: "dimension"
+			}]
+			title: "Screw the Nether"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "11780671B69E0AC9"
+			invisible: true
+			rewards: [{
+				id: "54560E0513C03032"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Be quiet or it might hear you."
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_shrieker"
+				id: "7FCE425B351D7C42"
+				title: "Visit the Deep Dark"
+				type: "biome"
+			}]
+			title: "You Dug Too Deep"
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "Hidden Quests"
+}

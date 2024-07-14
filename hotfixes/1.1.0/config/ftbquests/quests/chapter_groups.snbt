@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "4C042B427D29635F", title: "Learning the ropes" }
+		{ id: "6A359E9C2EB1C150", title: "Misc" }
+		{ id: "66A2B38CCAC6F9C6", title: "Fishing" }
+		{ id: "12BD76B8E7EB32EF", title: "Hunting" }
+	]
+}

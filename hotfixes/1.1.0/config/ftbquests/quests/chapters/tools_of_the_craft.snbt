@@ -1,0 +1,236 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tools_of_the_craft"
+	group: "66A2B38CCAC6F9C6"
+	icon: {
+		Count: 1
+		id: "minecraft:fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "74A44BDA3434907D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22270769902EC9BE"
+			rewards: [{
+				id: "2FAB117ECDFE690C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Craft a fishing rod"
+			tasks: [{
+				id: "288ABFE791FD34B2"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Old Fashioned Fisherman"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "0469B0825DED36CA"
+			rewards: [{
+				id: "7FED08600741567E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Craft a blaze rod"
+			tasks: [{
+				id: "2F71B3363EC6E79E"
+				item: {
+					Count: 1
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Blaze Rod Rod"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "1D58082BB11DB981"
+			rewards: [{
+				id: "0EE5112EE51A2CA3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Craft a diamond reinforced rod"
+			tasks: [{
+				id: "66BCD036EE9C852E"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Bling Bling"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "798ECAC16AE34FA5"
+			rewards: [{
+				id: "7DF90374BAFE4963"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a skeletal rod"
+			tasks: [{
+				id: "5D401BC6B4571C8A"
+				item: {
+					Count: 1
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Dead Men Tell No Tales"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "070D0CD8D69402DF"
+			rewards: [{
+				id: "60B4E21CB8D4C7BD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a frosted rod"
+			tasks: [{
+				id: "7D7A1DDBAC88F9FB"
+				item: {
+					Count: 1
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Cold as Ice"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "5D9B8F314E0373FE"
+			rewards: [{
+				id: "2C8229890A7E76D1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a slime rod"
+			tasks: [{
+				id: "61ED7210C14D8790"
+				item: {
+					Count: 1
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Sticky Fingers"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "4148AF3897D32094"
+			rewards: [{
+				id: "172CC09DD6796905"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a rod of souls"
+			tasks: [{
+				id: "0E8E74328827D7F9"
+				item: {
+					Count: 1
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "The God Rod"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "046CE134B6995579"
+			rewards: [{
+				id: "391778BA5FCB7A00"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a matrix rod"
+			tasks: [{
+				id: "5F0F6DB12F556C7B"
+				item: {
+					Count: 1
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Red Pill Or Blue Pill?"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "412C839F72251BAE"
+			rewards: [{
+				id: "6A2F51D3EBCCCD4D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Obtain a celestial rod"
+			tasks: [{
+				id: "778B1B79360FC66D"
+				item: {
+					Count: 1
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "The Stars Are Right"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Tools of the Craft"
+}

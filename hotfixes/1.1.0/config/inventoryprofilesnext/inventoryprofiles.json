@@ -1,0 +1,41 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "GuiSettings": {
+        "show_regular_sort_button": {
+            "value": false
+        },
+        "show_sort_in_columns_button": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "auto_refill_match_any_food": true,
+        "visual_durability_notification": {
+            "value": false
+        },
+        "number_of_notifications": 1,
+        "notification_step": 3,
+        "audio_replace_success_notification": {
+            "value": false
+        },
+        "type_visual_replace_success_notification": "CHAT",
+        "audio_replace_failed_notification": {
+            "value": false
+        },
+        "type_visual_replace_failed_notification": "HOTBAR"
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "R,C,A"
+            }
+        },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "T"
+            }
+        }
+    }
+}

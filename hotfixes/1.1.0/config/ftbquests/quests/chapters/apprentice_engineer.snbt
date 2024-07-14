@@ -1,0 +1,296 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apprentice_engineer"
+	group: "4C042B427D29635F"
+	icon: "numismatics:cog"
+	id: "70097697CBA5B015"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0195642DB269F0C1"]
+			description: [
+				"Using a &lhand crank&r to power your machines is fine at first, but gets tiring pretty quickly."
+				""
+				"Now, you will learn to create kinetic energy, measured in &lstress units&r (often shortened to &osu&r) with the power of moving water instead."
+				""
+				"Create machines have inputs for kinetic energy, which often take the form of &lshafts&r or &lcogwheels&r."
+			]
+			icon: {
+				Count: 1
+				id: "create:large_water_wheel"
+				tag: { }
+			}
+			id: "2D680621C6661F55"
+			rewards: [{
+				id: "4AB9A44128B51CEA"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Learn about generating stress units with water"
+			tasks: [
+				{
+					id: "799829FC0A777C1B"
+					item: "create:large_water_wheel"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "5299BDC8973F32C2"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60A75439A9EB5726"
+					item: { Count: 8, id: "create:shaft" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "22175497D018685F"
+					title: "Get the water wheel moving with water."
+					type: "checkmark"
+				}
+				{
+					id: "5335C1D5BE77A2D5"
+					optional_task: true
+					title: "Use the water wheel to power a machine."
+					type: "checkmark"
+				}
+			]
+			title: "Unlimited Power!"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31E34CBC17DD5114"]
+			description: [
+				"Remember that &lmechanical press&r you made earlier? Now you will need it!"
+				""
+				"With a &lmechanical saw&r, you will be able to cut down entire trees in one fell swoop- perfect for getting rid of all those pesky trees!"
+				""
+				"Take a look at the recipe for the &lmechanical saw&r and get to work!"
+			]
+			icon: "create:mechanical_saw"
+			id: "72582FEDAAA05962"
+			rewards: [{
+				id: "46EBFA00756BD6C6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a Mechanical Saw"
+			tasks: [
+				{
+					id: "5E1341441D3F8D94"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "673129D8ECEB587B"
+					item: "create:hand_crank"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "The Deforestation Sensation"
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"00173F2398F37B5F"
+				"7D620ECBAB456793"
+			]
+			icon: "create:mechanical_press"
+			id: "31E34CBC17DD5114"
+			rewards: [{
+				id: "45592DD1E94E011B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Crafting your first machine."
+			tasks: [
+				{
+					id: "5E060E0C4BED4F62"
+					item: "create:mechanical_press"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0D2731F0EF2EC54B"
+					item: "create:hand_crank"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4B2A61139F1708A4"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Now, on to More Pressing Matters"
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26D88185FB6DBE24"]
+			disable_toast: true
+			id: "63E052E800903C9B"
+			rewards: [{
+				id: "4B2DF6234910F575"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Create your first Andesite Alloys."
+			tasks: [{
+				count: 8L
+				id: "44C03599CC0073E1"
+				item: "create:andesite_alloy"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Heavy Metal"
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"In Create, many machines require &lAndesite Alloy&r to craft."
+				""
+				"Luckily, &lAndesite&r is plentiful in the world of Minecraft and serves no other purposes, apart from decoration."
+				""
+				"Find some &lAndesite&r and dig it up. You will probably end up needing a lot of this if you're serious about advancing your career as an engineer, so &oyou may want to get more than 16."
+			]
+			disable_toast: true
+			id: "26D88185FB6DBE24"
+			rewards: [{
+				id: "057E2BE47897162B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Gather some Andesite."
+			tasks: [{
+				count: 16L
+				id: "55CC46AD0C9E9285"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Entering the Andesite Age"
+			x: -19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63E052E800903C9B"]
+			description: [
+				"To make an &lAndesite Casing&r:"
+				""
+				"1. Place any log on the ground."
+				"2. Right click the log with an axe in hand in order to strip it of its bark."
+				"3. Right click the stripped log with an &lAndesite Alloy&r in hand."
+				""
+				"After following these steps, your log should have transformed into an &lAndesite Casing&r, which is an ingredient for many machines in Create."
+				""
+				"If your find this process tiresome, you can automate it later on."
+			]
+			disable_toast: true
+			id: "7D620ECBAB456793"
+			rewards: [{
+				id: "3AA94B1117204474"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Make your first Andesite Casing"
+			tasks: [{
+				count: 2L
+				id: "40E726B226441711"
+				item: "create:andesite_casing"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Creator's Nexus"
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63E052E800903C9B"]
+			disable_toast: true
+			id: "00173F2398F37B5F"
+			rewards: [{
+				id: "6EB49AE277040B8A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Crafting your first shafts."
+			tasks: [{
+				id: "1D8E16CE9B22BEB6"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Getting Shafted"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00173F2398F37B5F"]
+			guide_page: "https://create.fandom.com/wiki/Cogwheel"
+			id: "0195642DB269F0C1"
+			rewards: [{
+				id: "3B25C83AD51B8D57"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Learning to use cogs and gears"
+			tasks: [
+				{
+					count: 2L
+					id: "1B04FC6721B137A8"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "60DCFC25C4A14C14"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "2D43E062C419B6A9"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cog Blocked"
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31E34CBC17DD5114"]
+			id: "52346E026DCA1447"
+			rewards: [{
+				id: "08C134D803F7C7FC"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Make a wrench."
+			tasks: [{
+				id: "3398D06AAA82E892"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Gutwrenching Decisions"
+			x: -10.5d
+			y: 0.0d
+		}
+	]
+	title: "The Path of the Engineer"
+}
